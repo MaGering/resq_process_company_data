@@ -5,15 +5,13 @@ THIS_PATH = os.path.dirname(os.path.abspath(__file__))
 
 input_path = os.path.join(
     THIS_PATH,
-    "results",
-    "companies",
+    "raw_data",
     "companies_Gebäudegrunddatensatz_vereinigt.csv"
 )
 
 output_path = os.path.join(
     THIS_PATH,
     "results",
-    "companies",
     "companies_area_and_units_per_cluster.csv"
 )
 
