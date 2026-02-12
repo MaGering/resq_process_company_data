@@ -7,7 +7,7 @@ import time
 BASE_URL = "https://www.adlershof.de"
 PAGE_URL_TEMPLATE = BASE_URL + "/firmensuche-institute/adressverzeichnis/firmen?tx_sitepackage_company%5BcompanyPaginator%5D%5BcurrentPage%5D={}"
 
-CSV_FILENAME = os.path.join("results", "companies", "adlershof_companies.csv")
+CSV_FILENAME = os.path.join("results", "adlershof_companies.csv")
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
