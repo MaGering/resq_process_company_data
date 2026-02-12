@@ -6,10 +6,14 @@ THIS_PATH = os.path.dirname(os.path.abspath(__file__))
 companies_preprocessed_path = os.path.join(
     THIS_PATH,
     "results",
-    "companies",
-    "adlershof_companies_geodata_preprocessed.csv")
+    "adlershof_companies_geodata_preprocessed.csv"
+)
 
-companies_assigned_cluster_path = os.path.join(THIS_PATH, "results", "companies", "adlershof_companies_processed.csv")
+companies_assigned_cluster_path = os.path.join(
+    THIS_PATH,
+    "results",
+    "adlershof_companies_processed.csv"
+)
 
 # --------------------------------------------------
 # 1. CSV einlesen
