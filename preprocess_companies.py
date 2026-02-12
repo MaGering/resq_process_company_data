@@ -9,14 +9,12 @@ THIS_PATH = os.path.dirname(os.path.abspath(__file__))
 input_path = os.path.join(
     THIS_PATH,
     "results",
-    "companies",
     "adlershof_companies_geodata.csv"
 )
 
 results_path = os.path.join(
     THIS_PATH,
     "results",
-    "companies",
     "adlershof_companies_geodata_preprocessed.csv"
 )
 
